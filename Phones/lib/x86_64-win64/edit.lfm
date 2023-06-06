@@ -1,0 +1,110 @@
+object fEdit: TfEdit
+  Left = 280
+  Height = 285
+  Top = 599
+  Width = 400
+  BorderStyle = bsDialog
+  Caption = 'Редактор контакта'
+  ClientHeight = 285
+  ClientWidth = 400
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '2.2.6.0'
+  object KodL: TLabel
+    Left = 8
+    Height = 15
+    Top = 8
+    Width = 103
+    Caption = 'Укажите код книги'
+    ParentColor = False
+  end
+  object eKod: TEdit
+    Left = 8
+    Height = 23
+    Top = 24
+    Width = 210
+    TabOrder = 0
+  end
+  object NazvanieL: TLabel
+    Left = 8
+    Height = 15
+    Top = 56
+    Width = 134
+    Caption = 'Укажите название книги'
+    ParentColor = False
+  end
+  object eName: TEdit
+    Left = 8
+    Height = 23
+    Top = 72
+    Width = 210
+    TabOrder = 1
+  end
+  object AvtorL: TLabel
+    Left = 8
+    Height = 15
+    Top = 104
+    Width = 121
+    Caption = 'Укажите автора книги'
+    ParentColor = False
+  end
+  object bSave: TBitBtn
+    Left = 40
+    Height = 30
+    Top = 248
+    Width = 160
+    Caption = '&Сохранить контакт'
+    Default = True
+    Kind = bkOK
+    ModalResult = 1
+    TabOrder = 2
+  end
+  object BitBtn2: TBitBtn
+    Left = 200
+    Height = 30
+    Top = 248
+    Width = 160
+    Cancel = True
+    Caption = 'Не сохранять'
+    Kind = bkCancel
+    ModalResult = 2
+    TabOrder = 3
+  end
+  object JanrL: TLabel
+    Left = 8
+    Height = 15
+    Top = 152
+    Width = 113
+    Caption = 'Укажите жанр книги'
+    ParentColor = False
+  end
+  object eJanr: TEdit
+    Left = 8
+    Height = 23
+    Top = 168
+    Width = 210
+    TabOrder = 4
+  end
+  object GodL: TLabel
+    Left = 8
+    Height = 15
+    Top = 200
+    Width = 149
+    Caption = 'Укажите год издания книги'
+    ParentColor = False
+  end
+  object eGod: TEdit
+    Left = 8
+    Height = 23
+    Top = 216
+    Width = 210
+    TabOrder = 5
+  end
+  object eAvtor: TEdit
+    Left = 8
+    Height = 23
+    Top = 128
+    Width = 210
+    TabOrder = 6
+  end
+end
